@@ -1,3 +1,8 @@
-# beam-summit-2023
+# Auto model refresh using Apache Beam's Python RunInference API
 
-TODO: An example to present at the beam-summit-2023
+TODO:
+1. Apache Beam installation.
+2. Additional dependencies installation.
+3. Documentation about source and sink.
+4. 
+5. Visualize results.
