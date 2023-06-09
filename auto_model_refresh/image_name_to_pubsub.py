@@ -5,7 +5,7 @@ import apache_beam as beam
 from apache_beam.transforms.periodicsequence import PeriodicImpulse
 
 """
---output=gs://clouddfe-anandinguva/counts --runner=DataflowRunner --project google.com:clouddfe --temp_location gs://clouddfe-anandinguva/tmp2 --region us-central1
+python auto_model_refresh/image_name_to_pubsub.py --runner=DataflowRunner --project google.com:clouddfe --temp_location gs://clouddfe-anandinguva/tmp2 --region us-central1 --streaming
 """
 
 def run(parser):
